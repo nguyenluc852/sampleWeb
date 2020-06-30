@@ -12,6 +12,11 @@ public class Task {
 	String updated_at;
 	
 	
+	public Task() {
+		super();
+	}
+
+
 	public Task(int id, String title, String scheduled_date, String compleate_date, int priority, boolean isComplete,
 			int delete_flg, String created_at, String updated_at) {
 		super();
